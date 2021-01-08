@@ -313,14 +313,14 @@ header {
     width: 300px;
     height: 300px;
     left: -153px;
-    top: calc(50% - 126px);
+    top: calc(50% - 72px);
     z-index: 1;
 }
 
 .triangle-form {
     position: absolute;
     left: -176px;
-    top: 53px;
+    top: 24px;
     z-index: 2;
 }
 
@@ -640,6 +640,10 @@ header {
     padding-bottom: 60px;
 }
 
+.tarif-item:nth-child(7),
+.tarif-item:nth-child(8) {
+    border-bottom: none;
+}
 
 
 .tarif-title {
@@ -736,7 +740,7 @@ header {
 }
 
 .section-form {
-    padding-top: 90px;
+    padding-top: 95px;
     padding-bottom: 128px;
 }
 
@@ -754,12 +758,13 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 150%;
-    position: relative;
-    z-index: 3;
-
 }
 
-.form-title>p {
+.form-title>div {
+    position: relative;
+}
+
+.form-title p {
     position: relative;
     z-index: 3;
 }
@@ -775,7 +780,7 @@ header {
     padding-top: 60px;
     border-top: 1px solid #F3F2F0;
     position: relative;
-    z-index: 3;
+    z-index: 4;
 }
 
 .form-social {
